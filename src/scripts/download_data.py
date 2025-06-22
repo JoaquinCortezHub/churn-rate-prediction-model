@@ -21,7 +21,7 @@ def download_telco_data():
     """Download and extract Telco customer churn dataset."""
     setup_kaggle_auth()
     
-    data_dir = Path("data/raw")
+    data_dir = Path("src/data/raw")
     data_dir.mkdir(parents=True, exist_ok=True)
     
     dataset_file = data_dir / "WA_Fn-UseC_-Telco-Customer-Churn.csv"

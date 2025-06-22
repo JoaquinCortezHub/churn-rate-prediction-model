@@ -92,3 +92,35 @@
 - Immediate contract strategy review needed
 - Consider incentives for longer-term contracts
 - Target month-to-month customers with retention campaigns
+
+## Payment Method Revenue Risk Analysis
+
+| Payment Method | Total Customers | Churned Customers | Total Monthly Revenue | Avg Monthly Charge | Churn Rate | Annual Revenue at Risk |
+|----------------|-----------------|-------------------|----------------------|-------------------|------------|----------------------|
+| Electronic check | 2,365 | 1,071 | $180,345 | $76.26 | 45.3% | $980,039 |
+| Mailed check | 1,612 | 308 | $70,794 | $43.92 | 19.1% | $162,317 |
+| Bank transfer (automatic) | 1,544 | 258 | $103,745 | $67.19 | 16.7% | $208,028 |
+| Credit card (automatic) | 1,522 | 232 | $101,232 | $66.51 | 15.2% | $185,170 |
+
+| Risk Level | Payment Methods | Churn Rate Range | Revenue Impact |
+|------------|-----------------|------------------|----------------|
+| 🔴 High Risk | Electronic check | 45.3% | $980,039 |
+| 🟡 Medium Risk | Mailed check | 19.1% | $162,317 |
+| 🟢 Low Risk | Bank transfer, Credit card | 15.2% - 16.7% | $393,198 |
+
+### 🚨 Critical Payment Method Findings
+
+- **Electronic check** represents the highest churn risk at **45.3%**
+- **Annual revenue loss** from electronic check users: **$980,039** (63% of total payment-related losses)
+- **Automatic payment methods** show significantly better retention:
+  - Credit card (automatic): 15.2% churn
+  - Bank transfer (automatic): 16.7% churn
+- **Payment friction hypothesis**: Manual payment methods correlate with higher churn
+- **Opportunity**: Migrating electronic check users could save **$490,000+ annually**
+
+### 💡 Strategic Recommendations
+
+1. **Immediate**: Launch electronic check user migration campaign
+2. **Incentivize**: Offer discounts for automatic payment adoption
+3. **Investigate**: Payment process friction for electronic check users
+4. **Target**: Focus retention efforts on electronic check customer segment

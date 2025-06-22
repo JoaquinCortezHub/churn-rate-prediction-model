@@ -8,7 +8,9 @@
 - **Revenue at Risk:** $1,66 million annually
 - **High-Risk Segments Identified:** 3 customer groups
 
-### Critical insights by segment
+![Financial Impact Analysis](../figures/01_Customer%20Churn%20Rate%20Analysis%20Graph.png)
+
+# Revenue Risk based on customer segments
 
 - **High Value (+$80):**
     Total customers: 2,677
@@ -28,6 +30,8 @@
 
 > [!WARNING]
 > TOTAL ANNUAL REVENUE AT RISK: **USD 1,662,777**
+
+![Revenue Risk by segment graph](../figures/revenue%20risk%20by%20segment.png)
 
 - High Value (+$80) Segment:
    - Risk Level: 🔴 HIGH RISK (34.0% churn)
@@ -74,6 +78,8 @@
 
 # Revenue risk based on contract lenght
 
+![Revenue risk by contract length](../figures/revenue%20risk%20by%20contract.png)
+
 | Contract Type     | Total Customers | Churned Customers | Total Monthly Revenue | Avg Monthly Charge | Avg Tenure | Churn Rate | Annual Revenue Lost |
 |:------------------|-------------------:|---------------------:|-------------------------:|----------------------:|--------------:|--------------:|----------------------:|
 | Two year          | 1,695              | 48                   | $103,006                 | $61                   | 56.74         | 2.8%          | $35,004               |
@@ -93,7 +99,9 @@
 - Consider incentives for longer-term contracts
 - Target month-to-month customers with retention campaigns
 
-# Payment Method Revenue Risk Analysis
+# Revenue risk based on payment method
+
+![Revenue risk by paymet method](../figures/revenue%20risk%20by%20payment%20method.png)
 
 | Payment Method | Total Customers | Churned Customers | Total Monthly Revenue | Avg Monthly Charge | Churn Rate | Annual Revenue at Risk |
 |----------------|-----------------|-------------------|----------------------|-------------------|------------|----------------------|
@@ -127,7 +135,9 @@
 3. **Investigate**: Payment process friction for electronic check users
 4. **Target**: Focus retention efforts on electronic check customer segment
 
-# Service Adoption Revenue Risk Analysis
+# Revenue risk based on adopted services
+
+![Revenue risk by adopted services](../figures/revenue%20risk%20by%20service%20amount.png)
 
 | Internet Service | Total Customers | Churned Customers | Avg Monthly Charge | Total Monthly Revenue | Churn Rate | Annual Revenue at Risk |
 |-----------------|-----------------|-------------------|-------------------|----------------------|------------|----------------------|
